@@ -194,6 +194,7 @@ stdenv.mkDerivation (finalAttrs: {
     maintainers = with lib.maintainers; [
       zhaofengli
       dsluijk
+      miniharinn
     ];
     mainProgram = "bambu-studio";
     platforms = lib.platforms.linux;
