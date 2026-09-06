@@ -21235,8 +21235,6 @@ self: super: with self; {
 
   twitchapi = callPackage ../development/python-modules/twitchapi { };
 
-  twitter = callPackage ../development/python-modules/twitter { };
-
   twitterapi = callPackage ../development/python-modules/twitterapi { };
 
   twofish = callPackage ../development/python-modules/twofish { };
